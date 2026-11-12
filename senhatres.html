@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redefenir senha 3</title>
+  <link rel="stylesheet" href="senhatres.css">
+</head>
+<body>
+  <div class="card">
+    <header class="header">
+      <div class="logo">
+        <span class="logo-vs">VS</span>
+      </div>
+    </header>
+
+    <main class="content">
+      <h2>REDEFINIR SENHA:</h2>
+
+      <div class="status-box">
+        <span class="bullet">•</span>
+        <p>Código confirmado <span class="check-icon">✓</span></p>
+      </div>
+
+      <form id="reset-password-form">
+        <div class="input-group">
+          <label for="new-password">Senha:</label>
+          <input 
+            type="password" 
+            id="new-password" 
+            placeholder="Digite sua nova senha..." 
+            required 
+          />
+        </div>
+
+        <div class="input-group">
+          <input 
+            type="password" 
+            id="confirm-password" 
+            placeholder="Digite novamente..." 
+            required 
+          />
+        </div>
+
+        <button type="submit" class="btn-submit">Fazer login</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="senhatres.js"></script>
+</body>
+</html>
